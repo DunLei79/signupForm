@@ -22,15 +22,12 @@ body{
     align-items: center;
 }
 
-
 .heading {
     text-align: center;
     padding: 2em;
     width: 18em;
     color: #fff;
 }
-
-
 
 .free {
     margin-bottom: 1em;
@@ -44,8 +41,6 @@ body{
     box-shadow: 0px 10px 3px hsla(15, 3%, 17%, 0.43);
     cursor: pointer;
 }
-
-
 
 .signin{
 
@@ -130,6 +125,11 @@ input{
         margin-left: 6rem;
     }
 }
+
+
+
+
+
 
     
 
