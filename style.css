@@ -1,0 +1,137 @@
+:root{
+
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+
+    font-family: 'poppins';
+    font-size: 16px;
+    background: url(images/bg-intro-mobile.png) hsl(0, 100%, 74%) ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+.heading {
+    text-align: center;
+    padding: 2em;
+    width: 18em;
+    color: #fff;
+}
+
+
+
+.free {
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 18em;
+    height:max-content;
+    text-align: center;
+    color: aliceblue;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 3px hsla(15, 3%, 17%, 0.43);
+    cursor: pointer;
+}
+
+
+
+.signin{
+
+    margin: 0.5em;
+    padding-left: 1.5em;
+    width: 18.5em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 7px 4px hsla(15, 3%, 17%, 0.43);
+    display: block;
+}
+    
+    
+input{
+    width: 80%;
+    padding: 1.2em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: 1px solid hsl(240, 3%, 75%);
+    box-sizing: content-box;
+}
+#submit{
+    background-color:hsl(154, 59%, 51%);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#terms{
+    
+    padding-left: 1.5em;
+    font-size: 10px;
+    color:hsl(246, 25%, 77%);
+    text-align: center;
+    width: 25em;
+}
+#tc{
+    color: hsl(0, 100%, 74%);
+}
+
+@media screen and (min-width:1000px ) {
+    body{
+        background: url(images/bg-intro-desktop.png) hsl(0, 100%, 74%) ;
+    }
+    .container{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: rgb(14, 14, 14) solid 2px;
+        height: 100vh;
+        
+        }
+    .heading{
+        width: 30rem;
+        
+    } 
+    .signin{
+        margin: 0.5em;
+        width: 30rem;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 7px 4px hsla(15, 3%, 17%, 0.43);
+        display: block;
+    }
+    input{
+        width: 88%;
+        padding: 1.2em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+        border: 1px solid hsl(240, 3%, 75%);
+        box-sizing: content-box;
+    }
+    
+    .free{
+        margin-bottom: 32rem;
+        position: absolute;
+        margin-left: 34rem;
+        width: 29.5rem;
+        cursor: pointer;
+    } 
+   
+    #terms{
+        margin-left: 6rem;
+    }
+
+    
+
+    
+}
